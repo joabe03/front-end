@@ -2,7 +2,6 @@ body{
     background-image: linear-gradient(to right, cyan,rgb(146, 146, 232),rgb(57, 57, 225) );
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .box{
     color: white;
     position: absolute;
@@ -14,11 +13,9 @@ body{
     border-radius:15px;
     width: 30%;
 }
-
 fieldset{
     border: 3px solid dodgerblue;
 }
-
 legend{
     border: 1px solid dodgerblue;
     padding: 10px;
@@ -26,15 +23,13 @@ legend{
     background-color: rgb(156, 156, 239);
     border-radius: 8px;
 }
-
 .inputBox{
     position: relative;
-
 }
-
 .inputUser{
     background: none;
     border-bottom: 1px solid white;
+    outline: none;
     outline: none;/*tirar a linha de fora do input*/
     border: none;/*tirar a borda*/
     color: white;
@@ -42,7 +37,6 @@ legend{
     width: 100%;
     letter-spacing: 2px;/*espaço entre cada carcter no input*/
 }
-
 .labelinput{
     position: absolute;
     color:black;
@@ -50,16 +44,11 @@ legend{
     left:0px;
     pointer-events:none;/*qualquer lugar que eu clicar dentro do input, ele vai executar ação*/
     transition: 5px;/*transição - para criação de efeitos de animção personalizado*/
-
-
 }
-
 /*quando clicar no input eu quero que a label vai para cima do input - por isso a ação é no input*/
-
 .inputUser:focus ~ .labelinput, /*executar uma ação na nossa label*/
 .inputUser:valid ~ .labelinput{ /*quando o input tiver válido, eu quero que ele execute essa ação para a label- a
                                 0informação irá permanecer no input, senão irá ficar por cima*/
-
 top: -20px;
 font-size: 20px;
 color:black;                              
@@ -87,4 +76,10 @@ color:black;
 
 #enviar:hover{
     background-image: linear-gradient(to right, rgb(68, 68, 218),rgb(68, 68, 194) );/*quando passar o mouse por cima do botão enviar, irá aplicar esse azul um pouco mais escuro*/
+}
+
+img{
+    width: 350px;
+    height: 325px;
+    text-align: center;
 }
