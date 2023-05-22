@@ -1,0 +1,33 @@
+header{
+    background: #F4A460;
+    padding: 20px;
+
+}
+
+#logo{
+    border-radius: 20px;
+
+}
+
+@font-face {
+    font-family: 'lastica';
+    src: url('Lastica.ttf')  format('opentype');
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    transform: translate(10%, 50%);
+    font-size: 35px;
+    font-family: lastica;
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior e inferior de 40px, para os lados "zero"*/
+}
