@@ -1,5 +1,5 @@
 header{
-    background: #F4A460;
+    background: #2b2727;
     padding: 20px;
 
 }
@@ -7,6 +7,13 @@ header{
 #logo{
     border-radius: 20px;
 
+}
+
+#logo1{
+    width: 200px;
+    height: 95px;
+    text-align: center;
+   
 }
 
 @font-face {
@@ -21,6 +28,9 @@ header{
     transform: translate(10%, 50%);
     font-size: 35px;
     font-family: lastica;
+    color: red;
+    text-align: center;
+    
 }
 
 main{

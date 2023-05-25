@@ -9,7 +9,7 @@
 <body>
      <header>  
        <img id="logo" src="logo_spartan.png">
-       <h1 class="titulo-principal">Spartan Games-loja de games e 
+       <h1 class="titulo-principal">Spartan  Games - loja <br>de games e 
            produtos eletronicos</h1>
          
 
@@ -17,36 +17,62 @@
 
      <main>
          <form>
-                 <label  for="nomesobrenome">Nome e sobrenome</label>
+                 <label  for="nomesobrenome">Nome e sobrenome:</label>
                  <input type="text" name="nome" id="nomesobrenome" class="input-padrao"
-                 placeholder="Seu nome e sobrenome " required>
+                 placeholder="Seu nome e sobrenome " required><br><br>
 
-                 <label  for="email">Email</label>
+                 <label  for="email">Email:</label>
                  <input type="text" name="email" id="email" class="input-padrao"
-                 placeholder="seuemail@dominio.com" required>
+                 placeholder="seuemail@dominio.com" required><br><br>
 
-                 <label  for="telefone">Telefone</label>
+                 <label  for="telefone">Telefone:</label>
                  <input type="text" name="telefone" id="telefone" class="input-padrao"
-                 placeholder="(XX) XXXXX-XXXX " required>
+                 placeholder="(XX) XXXXX-XXXX " 
+                 placeholder="Escreva sua mensagem aqui" required><br>
 
-                 <label for="mensagem">Mensagem</label>
-                 <textarea cols="70" rows="10" id="mensagem"  required> 
+                 <label for="mensagem">Mensagem:</label>
+                 <textarea cols="70" rows="10" id="mensagem"  
+                 placeholder="envie sua mensagem aqui" required> 
                  </textarea>
-                 
+
+                <section>
+                     <p>Como prefere nosso contato?</p>
+                     <input type="radio" name="contato" value="email" id="radio-email">
+                     <label for="radio-email">Email</label>
+                     
+                     <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                     <label for="radio-telefone">Telefone</label>
+
+                     <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                     <label for="radio-whatsapp">Whatsapp</label>
+
+                </section>
+
+                <section>
+                     <p>Qual o horário prefere ser atendido</p>
+                     <select>
+                         <option>Manhã</option><!--dropdown - seleções selecionáveis-->
+                         <option>Tarde</option>
+                         <option>Noite</option>
+                     </select>
+                </section> <br>
+
+                <label class="checkbox">
+                <input type="checkbox">Gostaria de receber nossas novidades no email?</label> <br><br>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
 
 
                 
 
 
          </form>
+ </main>
 
-
-
-
-
-     </main>
-
-<footer></footer>
+<footer>
+    <img id="logo1" src="logo_spartan.png">
+    <p class="copyright">&copy; Copyright -- Joabe Felipe</p>
+</footer>
     
 </body>
 </html>
