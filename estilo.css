@@ -1,0 +1,16 @@
+.cabecalho{
+  background-color:blue;
+  width:auto;
+  height:150;
+}
+
+.conteudo{
+  width:auto;
+  height:600px;
+  background-color:red;}
+
+.rodape{
+ width:auto;
+ height:150px;
+  background-color:blue;
+}
