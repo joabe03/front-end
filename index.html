@@ -1,23 +1,39 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-<head><title></title>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="estilo.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">>
 </head>
 <body>
- <div class="cabecalho">
-   <img src="logo.webp" width="200" height="100">
-    informática
-</div>
-
-<div class="conteudo">
-dssds
-</div>
-
-<div class="rodape">
- Endereço: Rua Albert Aisten 552,
- Fone:(45)9932-2467, Cascavel PR
-</div>
-
- </body>
-</html> 
+    <pre>
+    <form method="post" action="">
+    Nome<input type="text" size="80" maxlength="70" placeholder="digite seu nome" name="nome">
+    Data Nascimento<input type="date">
+    RG<input type="number" size="10" placeholder="digite sem os pontos" required name="RG">
+    Email<input type="email" size="80" name="email">
+    Telefone<input type="tel" name="telefone">
+    Senha<input type="password" name="senha" size="10" maxlength="10">
+    Curso
+    <input type="checkbox" name="curso" value="administração">administração
+    <input type="checkbox" name="curso" value="desenvolvimento">desenvolvimento de sistemas
+    <input type="checkbox" name="curso" value="eletrônica">eletrônica
+    Periodo<input type="radio" name="matutino">matutino
+    <input type="radio" name="vespertino">vespertino
+    <input type="radio" name="noturno">noturno
+    Cidade<select name="cidade">
+          <pre>Cascavel</pre>
+          <pre>Corbélia</pre>
+          <pre>Penha</pre>
+    </select>
+    <textarea rows="30" cols="40">
+        Observação
+    </textarea>
+    <img src="nome.jpg" alt="Logo Ceep">
+    <a href="www.ceep.com.br">Site da escola</a>
+    <input type="reset" value="Apagar os dados">
+    <input type="submit" value="Gravar dados">
+    </form>
+    </pre>>
+</body>
+</html>

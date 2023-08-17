@@ -1,16 +1,10 @@
-.cabecalho{
-  background-color:blue;
-  width:auto;
-  height:150;
+body{
+    background-color: rgb(238, 238, 238);
 }
-
-.conteudo{
-  width:auto;
-  height:600px;
-  background-color:red;}
-
-.rodape{
- width:auto;
- height:150px;
-  background-color:blue;
+input{
+    background-color: green;
+    color: white;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 4px;
 }
